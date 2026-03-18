@@ -2,6 +2,9 @@
 using namespace std;
 int main()
 {
-	cout<<" ! hello c !";
+	int a,b;
+	cout<<"\n divide number:";
+	cin>>a>>b;
+	cout<<"\n"<<a%b;
 	return 0;
 }

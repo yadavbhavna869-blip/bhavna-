@@ -1,10 +1,12 @@
-#include<stdio.h>
+#include<iostream>
+using namespace std;
 int main()
 {
-	int p,r,t,i;
-	printf("\n enter print a simple interest:");
-	scanf("%d %d %d",&p,&r,&t);
-	i=(p*r*t)/100;
-	printf("\n print simple interest is %d:",i);
+	int s,p,r,t;
+	cout<<"\n  enter  a number for simple interest :";
+	cin>>p>>r>>t;
+	s=p*r*t/100;
+	cout<<"\n  simple interest is:"<<p<<r<<t;
 	return 0;
+	
 }
