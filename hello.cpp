@@ -1,8 +1,7 @@
-#include<iostream>
-using namespace std;
+#include<stdio.h>
 int main()
+printf("hello c");
 {
-    int sum=6;
-    cout<<" hello wold"<< sum;
-    return 0;
+ 
+	return 0;
 }
