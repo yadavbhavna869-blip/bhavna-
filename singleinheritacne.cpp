@@ -1,0 +1,23 @@
+#include<iostream>
+using namespace std;
+class A
+{	public:
+	A() {cout<<"\n A cls Constructor";}   
+	~A() {cout<<"\n A cls Destructor";} 
+	void fa() {cout<<"\n fa() function";	}                                                                                                                                                 
+};
+class B: public A
+{
+	private:
+	protected:
+	public:
+	B() {cout<<"\n B cls Constructor";}   
+	~B() {cout<<"\n B cls Destructor";}       
+	void fb() {cout<<"\n fb() function";	}                                                                                                                                             
+};
+
+int main()
+{B ob;
+
+return 0;
+}
